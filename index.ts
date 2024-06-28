@@ -34,8 +34,8 @@ const instanciaA = new ClaseA(42, "Hola, mundo");
 console.log(instanciaA.foo); // 42
 console.log(instanciaA.bar); // "Hola, mundo"
 
-//class C
-class ClaseC {
+//class B
+class ClaseB {
     foo: number;
     bar: string;
 
@@ -44,6 +44,6 @@ class ClaseC {
         this.bar = bar;
     }
 }
-const instanciaC = new ClaseA(42, "Hola, mundo");
+const instanciaB = new ClaseA(42, "Hola, mundo");
 console.log(instanciaA.foo); // 42
 console.log(instanciaA.bar); // "Hola, mundo"
