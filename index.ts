@@ -24,13 +24,15 @@ if (buttonClick) buttonClick.addEventListener('click', displayWeather);
 class ClaseA {
     foo: number;
     bar: string;
+    lorem: string;
 
-    constructor(foo: number, bar: string) {
+    constructor(foo: number, bar: string,lorem:string) {
         this.foo = foo;
         this.bar = bar;
+        this.lorem=lorem;
     }
 }
-const instanciaA = new ClaseA(42, "Hola, mundo");
+const instanciaA = new ClaseA(42, "Hola, mundo","sdfa");
 console.log(instanciaA.foo); // 42
 console.log(instanciaA.bar); // "Hola, mundo"
 
