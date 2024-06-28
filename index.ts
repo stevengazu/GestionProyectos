@@ -33,3 +33,17 @@ class ClaseA {
 const instanciaA = new ClaseA(42, "Hola, mundo");
 console.log(instanciaA.foo); // 42
 console.log(instanciaA.bar); // "Hola, mundo"
+
+//class C
+class ClaseC {
+    foo: number;
+    bar: string;
+
+    constructor(foo: number, bar: string) {
+        this.foo = foo;
+        this.bar = bar;
+    }
+}
+const instanciaC = new ClaseA(42, "Hola, mundo");
+console.log(instanciaA.foo); // 42
+console.log(instanciaA.bar); // "Hola, mundo"
